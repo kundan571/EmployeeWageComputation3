@@ -11,7 +11,7 @@ public class Employeewageopps {
     public int dailyWageOfEmployee(int empCheck){
         int empHrs = 0;
         int totalWage = 0;
-        switch (empCheck) {
+        switch (employeeCheck()) {
             //checking if part time or not
             case IS_PART_TIME:
                 empHrs = 4;
