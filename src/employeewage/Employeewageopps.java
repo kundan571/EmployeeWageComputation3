@@ -11,7 +11,7 @@ public class Employeewageopps {
         int empHrs = 0;
         int totalWage = 0;
         //checking if full time or not
-        switch (empCheck) {
+        switch (employeeCheck()) {
             case IS_FULL_TIME:
                 empHrs = 8;
                 break;
